@@ -4,5 +4,5 @@ dhtPin = 23
 
 def getDhtData():
 
-    humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, DHTpin)
+    humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, dhtPin)
     return (humidity, temperature)
